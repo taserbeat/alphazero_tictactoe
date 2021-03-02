@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+start = "python human_play.py"
+
+[packages]
+tensorflow = "==1.13.1"
+pillow = "*"
+h5py = "==2.10.0"
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3"
